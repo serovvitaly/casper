@@ -24,16 +24,4 @@ ShopkeeperBundle\Entity\Project:
             type: datetime
         expire_at:
             type: datetime
-        manyToOne:
-            supplier:
-                targetEntity: User
-                joinColumn:
-                        name: owner_id
-                        referencedColumnName: id
-        manyToOne:
-            supplier:
-                targetEntity: Supplier
-                joinColumn:
-                        name: supplier_id
-                        referencedColumnName: id
     lifecycleCallbacks: {  }
