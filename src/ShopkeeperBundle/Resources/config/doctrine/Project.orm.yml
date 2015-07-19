@@ -1,6 +1,6 @@
 ShopkeeperBundle\Entity\Project:
     type: entity
-    table: null
+    table: shopkeeper_projects
     repositoryClass: ShopkeeperBundle\Entity\ProjectRepository
     id:
         id:

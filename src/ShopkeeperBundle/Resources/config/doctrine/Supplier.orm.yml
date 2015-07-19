@@ -1,0 +1,22 @@
+ShopkeeperBundle\Entity\Supplier:
+    type: entity
+    table: shopkeeper_suppliers
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+            name:
+                type: string
+                length: 180
+            description:
+                type: string
+                length: 500
+            owner_id:
+                type: integer
+            postedAt:
+                name: created_at
+                type: datetime
+    lifecycleCallbacks: {  }
