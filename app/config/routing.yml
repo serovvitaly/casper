@@ -1,3 +1,7 @@
+consumer:
+    resource: "@ConsumerBundle/Resources/config/routing.yml"
+    prefix:   /
+
 shopkeeper:
     resource: "@ShopkeeperBundle/Resources/config/routing.yml"
     prefix:   /
